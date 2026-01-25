@@ -402,7 +402,12 @@ const app = {
 };
 
 const grid = { display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12 };
-const fraseStyle = { textAlign: "center", fontStyle: "italic", marginBottom: 20 };
+const fraseStyle = {
+  textAlign: "center",
+  fontStyle: "italic",
+  marginBottom: 20
+} as const;
+
 const fila = { display: "flex", justifyContent: "space-between", padding: 10 };
 
 const btn = {

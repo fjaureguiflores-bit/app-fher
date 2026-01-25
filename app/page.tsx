@@ -460,7 +460,8 @@ const plannerHeaderGrande = {
   fontWeight: 800,
   marginBottom: 8,
   textAlign: "center"
-};
+} as const;
+
 
 const ejerciciosGrid = {
   display: "grid",

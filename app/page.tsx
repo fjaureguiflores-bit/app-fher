@@ -429,7 +429,8 @@ const modalBg = {
   display: "flex",
   justifyContent: "center",
   alignItems: "center"
-};
+} as const;
+
 
 const modal = {
   background: "white",

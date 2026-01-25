@@ -74,7 +74,12 @@ export default function Home() {
   function cargarHistorial() {
     const dias = Object.keys(localStorage)
       .filter(k => k.startsWith("registro_"))
-      .sort((a, b) => new Date(b.replace("registro_", "")) - new Date(a.replace("registro_", "")))
+      .sort(
+  (a, b) =>
+    new Date(b.replace("registro_", "")).getTime() -
+    new Date(a.replace("registro_", "")).getTime()
+)
+
       .map(k => ({
         fecha: k.replace("registro_", ""),
         datos: JSON.parse(localStorage.getItem(k))

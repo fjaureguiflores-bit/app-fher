@@ -1,0 +1,13 @@
+{
+  "title": "Listen and choose the correct answer",
+  "content": "Hello! In English, we use different greetings depending on the time of day.",
+  "imageUrl": "",
+  "audioUrl": "https://fjaureguiflores-bit.github.io/lecciones/how_are_you.wav",
+  "questions": [
+    {
+      "questionText": "How are you today?",
+      "options": ["I'm fine, thank you!", "My name is Carlos", "Goobye"],
+      "correctIndex": 0
+    }
+  ]
+}
